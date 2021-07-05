@@ -1,5 +1,5 @@
 import xbmc,xbmcgui,xbmcplugin
-import urlparse
+import urllib.parse as urlparse
 import sys
 from resources.lib.advancedsettings import AdvancedSettings,SettingNode
 import resources.lib.utils as utils
