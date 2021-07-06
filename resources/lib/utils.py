@@ -1,8 +1,8 @@
-import xbmc
+import xbmc,xbmcvfs
 import xbmcgui
 import xbmcaddon
-    
-__addon_id__= 'script.advanced.settings.editor'
+
+__addon_id__ = 'script.advanced.settings.editor'
 __Addon = xbmcaddon.Addon(__addon_id__)
 
 def data_dir():
@@ -11,11 +11,11 @@ def data_dir():
 def addon_dir():
     return __Addon.getAddonInfo('path')
 
-def log(message,loglevel=xbmc.LOGINFO):
-    xbmc.log(encode(__addon_id__ + "-" + __Addon.getAddonInfo('version') + " : " + message),level=loglevel)
+def log(message, loglevel=xbmc.LOGDEBUG):
+    xbmc.log(__addon_id__ + "-" + __Addon.getAddonInfo('version') + ": " + message, level=loglevel)
 
 def showNotification(title,message):
-    xbmcgui.Dialog().notification(encode(getString(30000)),encode(message),time=4000,icon=xbmc.translatePath(__Addon.getAddonInfo('path') + "/icon.png"))
+    xbmcgui.Dialog().notification(encode(getString(30000)),encode(message),time=4000,icon=xbmcvfs.translatePath(__Addon.getAddonInfo('path') + "/icon.png"))
 
 def setSetting(name,value):
     __Addon.setSetting(name,value)

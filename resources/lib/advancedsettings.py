@@ -127,7 +127,6 @@ class AdvancedSettings:
 
         self._writeFile()
         
-
     def _writeFile(self):
         file = xbmcvfs.File(self.as_file,'w')
         file.write(str(self.doc.toxml()))

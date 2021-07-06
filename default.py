@@ -39,7 +39,7 @@ class EditorGUI:
       #check if file exists
       if(not self.as_file.exists()):
 
-         #as if the user would like to create one
+         #ask if the user would like to create one$LOCALIZE
          confirm = xbmcgui.Dialog().yesno(utils.getString(30023),utils.getString(30024))
 
          if(confirm):

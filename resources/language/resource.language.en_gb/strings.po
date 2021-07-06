@@ -1,0 +1,73 @@
+# Kodi Media Center language file
+# Addon Name: Skin Widgets
+# Addon id: service.skin.widgets
+# Addon Provider: Martijn, phil65
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@kodi.org\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30000"
+msgid "Advanced Settings Editor"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Add Element"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Add Child Element"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Change Value"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Delete"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Rename"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Value"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Are you sure you want to do this?"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Advanced settings file not present"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Would you like to make one?"
+msgstr ""
+
+msgctxt "#300023"
+msgid "advancedsettings.xml does not exist or cannot be parsed"
+msgstr ""
+
+msgctxt "#300024"
+msgid "Use season folders"
+msgstr ""
+
+msgctxt "#300025"
+msgid "Use season folders"
+msgstr ""
+
+msgctxt "#300026"
+msgid "Use season folders"
+msgstr ""
