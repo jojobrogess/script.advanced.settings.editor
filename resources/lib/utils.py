@@ -11,7 +11,7 @@ def data_dir():
 def addon_dir():
     return __Addon.getAddonInfo('path')
 
-def log(message, loglevel=xbmc.LOGDEBUG):
+def log(message,loglevel=xbmc.LOGDEBUG):
     xbmc.log(__addon_id__ + "-" + __Addon.getAddonInfo('version') + ": " + message, level=loglevel)
 
 def showNotification(message):      
@@ -22,7 +22,7 @@ def setSetting(name,value):
 
 def getSetting(name):
     return __Addon.getSetting(name)
-    
+
 def getString(string_id):
     return __Addon.getLocalizedString(string_id)
 
