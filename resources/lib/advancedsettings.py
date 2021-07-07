@@ -1,10 +1,10 @@
 import xbmc,xbmcvfs
 from xml.dom import minidom
 from xml.parsers.expat import ExpatError
-import resources.lib.utils as utils
+from . import utils as utils
 
 class AdvancedSettings:
-    as_file = xbmcvfs.translatePath('special://home/userdata/advancedsettings.xml')
+    as_file = xbmcvfs.translatePath('special://home/userdata/ADDONTEST/test.xml')
     doc = None
 
     def exists(self):

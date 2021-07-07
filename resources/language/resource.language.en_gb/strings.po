@@ -49,25 +49,25 @@ msgid "Are you sure you want to do this?"
 msgstr ""
 
 msgctxt "#30021"
-msgid "Advanced settings file not present"
+msgid "New Element Name"
 msgstr ""
 
 msgctxt "#30022"
-msgid "Would you like to make one?"
+msgid "New Element Value (blank if none)"
 msgstr ""
 
 msgctxt "#300023"
-msgid "advancedsettings.xml does not exist or cannot be parsed"
+msgid "Advanced settings file not present"
 msgstr ""
 
 msgctxt "#300024"
-msgid "Use season folders"
+msgid "Would you like to make one?"
 msgstr ""
 
 msgctxt "#300025"
-msgid "Use season folders"
+msgid "Problem loading file"
 msgstr ""
 
 msgctxt "#300026"
-msgid "Use season folders"
+msgid "advancedsettings.xml does not exist or cannot be parsed"
 msgstr ""

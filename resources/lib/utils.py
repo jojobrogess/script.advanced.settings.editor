@@ -14,8 +14,8 @@ def addon_dir():
 def log(message, loglevel=xbmc.LOGDEBUG):
     xbmc.log(__addon_id__ + "-" + __Addon.getAddonInfo('version') + ": " + message, level=loglevel)
 
-def showNotification(title,message):
-    xbmcgui.Dialog().notification(encode(getString(30000)),encode(message),time=4000,icon=xbmcvfs.translatePath(__Addon.getAddonInfo('path') + "/icon.png"))
+def showNotification(message):      
+    xbmcgui.Dialog().notification(getString(30000), message, time=4000, icon=xbmcvfs.translatePath(__Addon.getAddonInfo('path') + "/icon.png"))
 
 def setSetting(name,value):
     __Addon.setSetting(name,value)
@@ -26,5 +26,3 @@ def getSetting(name):
 def getString(string_id):
     return __Addon.getLocalizedString(string_id)
 
-def encode(string):
-    return string.encode('UTF-8','replace')
