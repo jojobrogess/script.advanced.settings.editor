@@ -1,15 +1,9 @@
 # Kodi Media Center language file
-# Addon Name: Skin Widgets
-# Addon id: service.skin.widgets
-# Addon Provider: Martijn, phil65
+# Addon Name: Advanced Setting Editor
+# Addon id: script.advanced.settings.editor
+# Addon Provider: robweber
 msgid ""
 msgstr ""
-"Project-Id-Version: Kodi Addons\n"
-"Report-Msgid-Bugs-To: alanwww1@kodi.org\n"
-"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
-"Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,7 +11,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgctxt "#30000"
-msgid "Advanced Settings Editor"
+msgid "Advanced TEST Settings Editor"
 msgstr ""
 
 msgctxt "#30001"
@@ -56,18 +50,26 @@ msgctxt "#30022"
 msgid "New Element Value (blank if none)"
 msgstr ""
 
-msgctxt "#300023"
+msgctxt "#30023"
 msgid "Advanced settings file not present"
 msgstr ""
 
-msgctxt "#300024"
+msgctxt "#30024"
 msgid "Would you like to make one?"
 msgstr ""
 
-msgctxt "#300025"
+msgctxt "#30025"
 msgid "Problem loading file"
 msgstr ""
 
-msgctxt "#300026"
+msgctxt "#30026"
 msgid "advancedsettings.xml does not exist or cannot be parsed"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Create First Element"
+msgstr ""
+
+msgctxt "#1"
+msgid "TESTString"
 msgstr ""
